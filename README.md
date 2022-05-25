@@ -1,5 +1,5 @@
 <!-- Add a image to the readme -->
-<img src="logo-braneskit.png" alt="SciKit logo" width="200"/>
+<img src="logo.svg" alt="Brane-Matplotlib logo" width="512"/>
 <h1>Welcome to Brane Matplotlib 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
