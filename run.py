@@ -22,7 +22,7 @@ def main(command):
     data = read_np_array("INPUT")
     cmap_data = read_np_array("CMAP_INPUT")
 
-    cmap_name = os.environ.get("CMAP", "Set1")
+    cmap_name = os.environ.get("CMAP")
     edge_color = os.environ.get("EDGE_COLOR")
 
     if os.environ.get("SCATTER", False):
@@ -64,6 +64,7 @@ def main(command):
         print(yaml.dump({"output": file_path}))
     elif command == "plot_show":
         plt.show()
+        print(yaml.dump({"output": "show"}))
     else:
         print("Unknown command")
 

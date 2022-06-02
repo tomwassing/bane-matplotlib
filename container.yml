@@ -24,6 +24,51 @@ actions:
       - type: string
         name: input
         required: true
+
+      - type: boolean
+        name: scatter
+        required: true
+
+      - type: string
+        name: x_label
+        required: false
+
+      - type: string
+        name: y_label
+        required: false
+
+      - type: string
+        name: title
+        required: false
+
+      - type: integer
+        name: x_min
+        required: false
+
+      - type: integer
+        name: x_max
+        required: false
+
+      - type: integer
+        name: y_min
+        required: false
+
+      - type: integer
+        name: y_max
+        required: false
+
+      - type: string
+        name: cmap_input
+        required: false
+
+      - type: string
+        name: cmap
+        required: false
+
+      - type: string
+        name: edge_color
+        required: false
+        
     output:
       - type: string
         name: output
@@ -36,9 +81,55 @@ actions:
       - type: string
         name: input
         required: true
+
       - type: string
         name: file_path
         required: true
+
+      - type: boolean
+        name: scatter
+        required: true
+
+      - type: string
+        name: x_label
+        required: false
+
+      - type: string
+        name: y_label
+        required: false
+
+      - type: string
+        name: title
+        required: false
+
+      - type: integer
+        name: x_min
+        required: false
+        
+      - type: integer
+        name: x_max
+        required: false
+
+      - type: integer
+        name: y_min
+        required: false
+
+      - type: integer
+        name: y_max
+        required: false
+
+      - type: string
+        name: cmap_input
+        required: false
+
+      - type: string
+        name: cmap
+        required: false
+
+      - type: string
+        name: edge_color
+        required: false
+
     output:
       - type: string
         name: output
