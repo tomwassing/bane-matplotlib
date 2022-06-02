@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 
+##############################################################################
+#
+# Run
+#   This file is the entry point for running the application.
+#
+# Maintainers:
+#   - Jurre J. Brandsen (11808918)
+#   - Sander J. Misdorp (12151785)
+#   - Tom J. Wassing (12386716)
+##############################################################################
 import os
 import sys
 import yaml
@@ -10,6 +20,14 @@ import numpy as np
 
 
 def read_np_array(key):
+    '''
+    Reads a numpy array from stdin
+
+    Args:
+        key: the key to read the array from
+    Returns:
+        the numpy array
+    '''
     os_data = os.environ.get(key)
     if os_data is None:
         return None
@@ -18,6 +36,15 @@ def read_np_array(key):
 
 
 def main(command):
+    '''
+    Main function for running the application.
+
+    Args:
+        command: the command to run
+    Returns:
+        The output of the command
+    '''
+
     # reading input data
     data = read_np_array("INPUT")
     cmap_data = read_np_array("CMAP_INPUT")

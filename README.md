@@ -1,5 +1,5 @@
 <!-- Add a image to the readme -->
-<img src="logo.svg" alt="Brane-Matplotlib logo" width="512"/>
+<img src="img/logo.svg" alt="Brane-Matplotlib logo" width="512"/>
 <h1>Welcome to Brane Matplotlib 👋</h1>
 
 [![example workflow](https://github.com/tomwassing/brane-matplotlib/actions/workflows/test.yml/badge.svg)](https://github.com/tomwassing/brane-matplotlib/actions/workflows/test.yml)
