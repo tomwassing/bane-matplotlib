@@ -7,7 +7,7 @@ from os import path
 from run import main
 
 
-def test_random_nparray():
+def test_plot_file():
     test_data = np.random.rand(25, 25)
     os.environ["INPUT"] = json.dumps(test_data.tolist())
     os.environ["FILE_PATH"] = "./output.png"
