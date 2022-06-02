@@ -22,8 +22,8 @@ brane import tomwassing/brane-matplotlib
 
 |     Action     |                                                                                                     Input (Data)                                                                                                     |    Output (Data)    |                       Description                      |
 |:--------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:------------------------------------------------------:|
-|    plot_base64 | input (string) <br /> scatter (boolean) <br /> x_label (string) <br /> y_label (string) <br /> title (string) <br /> cmap_input (string) <br /> cmap (string) <br /> edge_color (string)                             |    output (string)  |   Creates a base64 encoding of the  resulting plot     |
-|     plot_file  | input (string) <br /> file_path (string) <br />  scatter (boolean) <br />  x_label (string) <br /> y_label (string) <br /> title (string) <br /> cmap_input (string) <br /> cmap (string) <br /> edge_color (string) |     output (string) |    Saves the created  plot to the specified  file_path |
+|    `plot_base64` | input (string) <br /> scatter (boolean) <br /> x_label (string) <br /> y_label (string) <br /> title (string) <br /> cmap_input (string) <br /> cmap (string) <br /> edge_color (string)                             |    output (string)  |   Creates a base64 encoding of the  resulting plot     |
+|     `plot_file`  | input (string) <br /> file_path (string) <br />  scatter (boolean) <br />  x_label (string) <br /> y_label (string) <br /> title (string) <br /> cmap_input (string) <br /> cmap (string) <br /> edge_color (string) |     output (string) |    Saves the created  plot to the specified  file_path |
 
 ## Run tests
 
