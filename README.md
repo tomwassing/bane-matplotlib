@@ -16,6 +16,13 @@
 brane import tomwassing/brane-matplotlib
 ```
 
+## Requirements
+- Yaml
+- JSON
+- Matplotlib
+- Numpy
+
+
 ## Usage
 
 |     Action     |                                                                                                     Input (Data)                                                                                                     |    Output (Data)    |                       Description                      |
