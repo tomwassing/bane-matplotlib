@@ -41,22 +41,6 @@ actions:
         name: title
         required: false
 
-      - type: integer
-        name: x_min
-        required: false
-
-      - type: integer
-        name: x_max
-        required: false
-
-      - type: integer
-        name: y_min
-        required: false
-
-      - type: integer
-        name: y_max
-        required: false
-
       - type: string
         name: cmap_input
         required: false
@@ -100,22 +84,6 @@ actions:
 
       - type: string
         name: title
-        required: false
-
-      - type: integer
-        name: x_min
-        required: false
-        
-      - type: integer
-        name: x_max
-        required: false
-
-      - type: integer
-        name: y_min
-        required: false
-
-      - type: integer
-        name: y_max
         required: false
 
       - type: string

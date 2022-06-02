@@ -36,21 +36,6 @@ def main(command):
     plt.ylabel(os.environ.get("Y_LABEL", ""))
     plt.title(os.environ.get("TITLE", ""))
 
-    # setting min/max of axises
-    x_min = os.environ.get("X_MIN")
-    x_max = os.environ.get("X_MAX")
-    y_min = os.environ.get("Y_MIN")
-    y_max = os.environ.get("Y_MAX")
-
-    if x_min is not None:
-        plt.xlim(xmin=int(x_min))
-    if x_max is not None:
-        plt.xlim(xmax=int(x_max))
-    if y_min is not None:
-        plt.ylim(ymin=int(y_min))
-    if y_max is not None:
-        plt.ylim(ymax=int(y_max))
-
     if command == "plot_base64":
         temp_file = io.BytesIO()
         plt.savefig(temp_file)
