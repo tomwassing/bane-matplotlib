@@ -1,14 +1,9 @@
 <!-- Add a image to the readme -->
 <img src="logo.svg" alt="Brane-Matplotlib logo" width="512"/>
 <h1>Welcome to Brane Matplotlib 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
+[![example workflow](https://github.com/tomwassing/brane-matplotlib/actions/workflows/test.yml/badge.svg)](https://github.com/tomwassing/brane-matplotlib/actions/workflows/test.yml)
 
-> This repository contains a package for BRANE that runs multiple functions from the Matplotlib libary.
+This repository contains a package for BRANE that runs multiple functions from the Matplotlib libary.
 
 ## Install
 
