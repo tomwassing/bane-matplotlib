@@ -1,6 +1,6 @@
 <!-- Add a image to the readme -->
 <img src="img/logo.svg" alt="Brane-Matplotlib logo" width="512"/>
-<h1>Welcome to Brane Matplotlib 👋</h1>
+<h1>Welcome to the Brane Matplotlib package 👋</h1>
 
 [![example workflow](https://github.com/tomwassing/brane-matplotlib/actions/workflows/test.yml/badge.svg)](https://github.com/tomwassing/brane-matplotlib/actions/workflows/test.yml)
 
@@ -13,9 +13,9 @@ brane import tomwassing/brane-matplotlib
 ```
 
 ## Requirements
-- Yaml
+- PyYAML
 - Matplotlib
-- Numpy
+- NumPy
 
 
 ## Usage
@@ -31,7 +31,7 @@ brane import tomwassing/brane-matplotlib
 python3 -m pytest
 ```
 
-## Author
+## Authors
 
 👤 **Jurre J. Brandsen, Sander J. Misdorp, Tom J. Wassing**
 

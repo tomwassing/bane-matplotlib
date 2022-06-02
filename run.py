@@ -41,7 +41,7 @@ def main(command):
 
     Args:
         command: the command to run
-    Returns:
+    Prints:
         The output of the command
     '''
 
