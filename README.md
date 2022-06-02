@@ -14,7 +14,6 @@ brane import tomwassing/brane-matplotlib
 
 ## Requirements
 - Yaml
-- JSON
 - Matplotlib
 - Numpy
 
